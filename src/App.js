@@ -15,7 +15,6 @@ function App() {
       .then((response) => response.json())
       .then((response) => {
         setInfo(response);
-        console.log(info);
       });
     }
   }, [text]);
